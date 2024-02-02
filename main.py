@@ -1,3 +1,4 @@
 import utils
 
-print(factorial(9))
+print(utils.factorial(9))
+print(utils.func1(625))
