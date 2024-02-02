@@ -19,3 +19,8 @@ def proste(el):
         if el % d == 0:
             return "Це число не є просте"
     return "Це число є просте"
+
+def nsd(a,b):
+    while b > 0:
+        a, b = b, a % b
+    return a
